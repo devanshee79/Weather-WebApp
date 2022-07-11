@@ -43,7 +43,7 @@ body{
     margin: 20px 25px 30px;
 }
 .wrapper.active .input_part{
-    display: none;
+    /* display: none; */
 }
 .input_part .info_txt{
     display: none;

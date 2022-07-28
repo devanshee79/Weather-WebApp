@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
+    
 }
 
 body{
@@ -13,6 +14,11 @@ body{
     justify-content: center;
     min-height: 100vh;
     background: #43AFFC;
+    /* background-image: url('./weather-app-icons/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
 }
 .wrapper{
     width: 400px;
@@ -39,11 +45,10 @@ body{
 }
 
 .wrapper .input_part{
-    /* display: none; */
     margin: 20px 25px 30px;
 }
 .wrapper.active .input_part{
-    /* display: none; */
+    display: none;
 }
 .input_part .info_txt{
     display: none;
